@@ -5,19 +5,21 @@ int main ()
      int i,T;
      cin>>T;
      for(i=1;i<=T;i++)
-     {
-     int a,b,c;
-         cin>>a>>b>>c;
-      if(a<b && b<c)
+
+     {         
+         int N,X,Y;
+         cin>>N>>X>>Y;
+         int sum = (X*1+Y*2);
+         if(sum>N)
          {
-      int sub = c-a;
-          cout<<sub<<endl;
+          cout<<"NO"<<endl;
          }
          else
          {
-          cout<<"0"<<endl;
+          cout<<"Yes"<<endl;
          }
-         
+
      }
+
      return 0;
 }
