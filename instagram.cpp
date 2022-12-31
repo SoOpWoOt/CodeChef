@@ -8,8 +8,7 @@ int main ()
      {
       int x,y;
       cin>>x>>y;
-      // spam x*10 < Y 
-      if((y*10)>x) 
+      if((y*10)<x) 
       {
           cout<<"yes"<<endl;
       }
